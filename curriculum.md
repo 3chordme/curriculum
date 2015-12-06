@@ -119,7 +119,71 @@ margin
 	trbl
 	auto
 padding
-border
+brkdown Reference
+##### Ignore the following content.
+When you see `this` You'll know I am writing code.
+
+```javascript
+This is also code!
+```
+
+This is a table:
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+Here is a quotation:
+> I am a quotation.
+> You know you like quotations.
+
+---
+
+Markvi usage bugs:
+***
+1. First ordered list item
+⋅⋅* Should this be an asterisk or just an indent?
+1. Actual numbers don't matter, just that it's a number
+⋅⋅1. Should this show the dots?
+* Unordered list can use asterisks. (this is numbered)
+- Or minuses (so is this)
++ Or pluses (so is this. why come?)
+
+Can we make it so when I change documents it goes to where I was last reading?
+
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
+
+The above link doesn't show up for some reason.
+
+Javascript/python syntax highlighting isn't happening:
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+
+Are hrs supposed to be asterisks, dashes, or underscores, or do they all display the same?
+***
+---
+___
+***
+That's doing some weird stuff.
+
+---
+---
+---
+---
+---
+
+This is also kind of odd:
+Traditional markdown needs two spaces at the end of a line to start a newline (like so: `  `).
+To switch back to that method, simply set `breaks` to `false` in the options near the bottom of `scripts/markdown.js`
+
+Maybe because it is not set in options? Needs a fix maybe?
+
+
+order
 box-sizing border-box
 position
 	static
