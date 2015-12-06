@@ -91,6 +91,7 @@ a
 img
 background
 background-image
+link
 class
 id
 
@@ -211,6 +212,3 @@ Should md text in editor become italic? I think not.
 Had a problem with text being incorrectly white/gray after a block of code.
 
 When copying all and pasting, first 4 characters were omitted. Why come?
-
-
-
