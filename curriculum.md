@@ -72,3 +72,43 @@ git commit
 git push
 git status
 
+
+### 03. Intro to CSS
+In this lesson, we will cover more Terminal commands, more HTML tags, and create a CSS file to handle our styles.
+
+__Terminal commands:__
+
+mv
+cp
+rm -rf
+using .
+using asterisk
+using /
+
+__HTML:__
+
+header
+footer
+div
+span
+p
+a
+img
+background
+background-image
+class
+id
+
+__CSS:__
+
+height
+width
+strong
+font-weight
+font-family
+font-size
+color
+.
+#
+
+
