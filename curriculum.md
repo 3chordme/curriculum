@@ -62,3 +62,13 @@ Congratulations! You have just made your first website.
 
 __Extra Credit:__ Add `style="background-color: red"` to your body tag. Use `alt` + `tab` to navigate to your browser, and `alt` + `r` to refresh the page. Add `style="font-family: helvetica"` to your h1 tag. Refresh your browser again. Congratulations! You just did some CSS, and you should now have a red background and some helvetica text on your page.
 
+
+### 02. Intro to GitHub
+create a github account
+create a repo
+git clone
+git add
+git commit
+git push
+git status
+
