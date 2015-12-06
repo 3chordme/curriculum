@@ -1,14 +1,12 @@
-David Teaches Coding
+# David Teaches Coding
 This is a _very_ quick crash course in some of the things I have learned from [__DevMountain__](www.devmountain.com "DevMountain's Homepage").
 
 ---
 ### 01. Intro to Terminal and HTML
 In this lesson, we will organize our dock, learn some basic Terminal commands, and make our very first website using simple HTML.
-
 ###### 01.01 - Organizing the Dock
 
 Clean up your dock! Remove all items that you don't use regularly, and add Terminal and Chrome to the Dock so that you can easily access them. They will soon be two of your best friends.
-
 
 ###### 01.02 - Terminal Navigation
 
@@ -27,7 +25,6 @@ We are going to use the following commands to make a directory (aka folder) name
 `nano file_name` edit file in nano.
 
 `open file_name` open file using default program.
-
 
 ###### 01.03 - HTML Intro
 
@@ -62,7 +59,6 @@ Congratulations! You have just made your first website.
 
 __Extra Credit:__ Add `style="background-color: red"` to your body tag. Use `alt` + `tab` to navigate to your browser, and `alt` + `r` to refresh the page. Add `style="font-family: helvetica"` to your h1 tag. Refresh your browser again. Congratulations! You just did some CSS, and you should now have a red background and some helvetica text on your page.
 
-
 ### 02. Intro to GitHub
 create a github account
 create a repo
@@ -71,7 +67,6 @@ git add
 git commit
 git push
 git status
-
 
 ### 03. Intro to CSS
 In this lesson, we will cover more Terminal commands, more HTML tags, and create a CSS file to handle our styles.
@@ -112,14 +107,43 @@ color
 #
 
 
-
 ### 04. CSS Position and Box-Model
 box-model
 margin
 	trbl
 	auto
 padding
-brkdown Reference
+border
+box-sizing border-box
+position
+	static
+	absolute
+    relative
+    fixed
+top, right, bottom, left
+display
+	none
+
+Selectors
+multiples
+children
+
+Terminal
+Using &&
+
+Github
+Detaching HEAD
+git branch
+
+
+------------------------------------
+---
+---
+
+
+
+
+# My Markdown Reference
 ##### Ignore the following content.
 When you see `this` You'll know I am writing code.
 
@@ -182,27 +206,5 @@ To switch back to that method, simply set `breaks` to `false` in the options nea
 
 Maybe because it is not set in options? Needs a fix maybe?
 
-
-order
-box-sizing border-box
-position
-	static
-	absolute
-    relative
-    fixed
-top, right, bottom, left
-display
-	none
-
-Selectors
-multiples
-children
-
-Terminal
-Using &&
-
-Github
-Detaching HEAD
-git branch
 
 
