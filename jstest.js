@@ -1,11 +1,5 @@
-var a = "a",
-  b = "b";, c = "c"
+var a = "a"
+  , b = "b",
+  , c = "c";
 
-consol.log('hello there');
-
-wehy asldkjfl;
-kjoie ework
-fj
-var *asb = 
-var;
-vark = vark;
+console.log('hello there');
